@@ -1,0 +1,14 @@
+@import 'general.less';
+
+.rating {
+  font-size: 175%;
+  padding: 0 0.5em;
+  
+  .color-hover-mixin(~'rating-highlight', @orange);
+  .color-hover-mixin(~'rating-normal', @dark-grey);
+
+  
+  & > a {
+    text-decoration: none;
+  }
+}

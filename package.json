@@ -1,0 +1,39 @@
+{
+  "name": "react-test",
+  "version": "0.0.0",
+  "devDependencies": {
+    "gulp-run": "1.6.5",
+    "gulp-less": "2.0.1",
+    "gulp-concat": "2.4.3",
+    "gulp-uglify": "1.0.2",
+    "gulp-minify-css": "0.3.11",
+    "gulp-jshint": "1.9.0",
+    "browser-sync": "1.8.2",
+    "browserify": "^10.2.1",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "1.0.0",
+    "jquery": "^2.0.3",
+    "react": "0.14.0",
+    "react-dom": "0.14.0",
+    "babelify": "^6.1.1",
+    "del": "1.1.1"
+  },
+  "paths": {
+    "less": "assets/less/*.less",
+    "js": "./app/**/*.js",
+    "jsx": "./app/**/*.jsx",
+    "app": "./app/app.js",
+    "html": "*.html"
+  },
+  "dest": {
+    "style": "style.css",
+    "app": "app.js",
+    "dist": "dist"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

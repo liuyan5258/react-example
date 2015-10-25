@@ -1,0 +1,8 @@
+@orange: #F4914E;
+@dark-grey: #3C3C3C;
+
+.color-hover-mixin(@class; @color) {
+  .@{class}, &.@{class}:hover {
+    color: @color; 
+  }
+}
