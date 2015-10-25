@@ -1,7 +1,8 @@
-(function(React,module) {
-  module.exports = React.createClass({
-    render: function() {
-      return <h1>Hello {this.props.name}</h1>;
-    }
-  });
-}(React,module));
+import React from 'react';
+export default class Hello extends React.Component {
+  render() {
+    return (
+      <h1>Hello {this.props.name}!</h1>
+    );
+  }
+}

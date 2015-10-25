@@ -22,7 +22,7 @@
     "less": "assets/less/*.less",
     "js": "./app/**/*.js",
     "jsx": "./app/**/*.jsx",
-    "app": "./app/app.js",
+    "app": "./app/app.jsx",
     "html": "*.html"
   },
   "dest": {
